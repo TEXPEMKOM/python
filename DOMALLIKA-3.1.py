@@ -22,9 +22,17 @@ def main():
             result = calculate(a, b, operation)
             print(f"PABHO: {result}")
 
-            # continue_calculating = input("/7OBTOPuTb (Yes/No)? ").strip().lower()
-            # if continue_calculating != 'Yes':
-            #     break
+            continue_calculating = input("/7OBTOPuTb (Yes/No)? ").strip().lower()
+            """"
+strip() удаляет начальные и конечные пробелы в введенной строке, если они есть.
+lower() переводит введенную строку в нижний регистр, чтобы ввод был нечувствителен к регистру
+            """
+            if continue_calculating != 'Yes':
+                break
+                """
+# if continue_calculating != 'Yes': проверяет, ввел ли пользователь “yes”.
+# Если пользователь ввёл что-то другое, цикл прерывается с помощью break, и программа заканчивает свою работу.
+                """
     except ValueError:
         print("BBEDuTE DO/7YCTuMOE 3HA4EHuE!")
 
