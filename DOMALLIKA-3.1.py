@@ -27,7 +27,7 @@ def main():
 strip() удаляет начальные и конечные пробелы в введенной строке, если они есть.
 lower() переводит введенную строку в нижний регистр, чтобы ввод был нечувствителен к регистру
             """
-            if continue_calculating != 'Yes':
+            if continue_calculating != 'yes':
                 break
             """
 if continue_calculating != 'Yes': проверяет, ввел ли пользователь “yes”.
