@@ -13,15 +13,14 @@
 # print('OK')
 
 def is_even(digit):
-    """
-    Функция для проверки, является ли число четным.
-    :param digit: Целое число.
-    :return: True, если число четное, иначе False.
-    """
+    """ Перевірка чи є парним число """
+    # Число является четным, если его остаток от деления на 2 равен 0
     return digit % 2 == 0
 
 # Тесты
-assert is_even(2) == True, 'Test1'
-assert is_even(5) == False, 'Test2'
-assert is_even(0) == True, 'Test3'
+assert is_even(2) == True, 'Test1'  # 2 является четным числом
+assert is_even(5) == False, 'Test2'  # 5 является нечетным числом
+assert is_even(0) == True, 'Test3'  # 0 является четным числом
+
 print('OK')
+
